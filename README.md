@@ -1,4 +1,4 @@
-# Гироскоп для Xbox геймпада (XInput) (Ru)
+# (Ru) Гироскоп для Xbox геймпада (XInput) 
 Гироскоп для Xbox геймпада, который позволяет использовать его как руль, а также помогать более точно прицеливаться. Использовать можно любой трекер, поддерживаемый OpenTrack (например, Arduino + GY-85).<br>
 ![](https://user-images.githubusercontent.com/9499881/27588504-749af800-5b59-11e7-92e4-2b3813428281.png)<br>
 Есть 3 режима использования:<br>
@@ -16,14 +16,14 @@
 <br><br>
 В "WheelSetup.ini" можно изменить угол вращения руля. 
 <br><br>
-После настройки необходимо скопировать файлы "xinput1_3.dll" и "WheelSetup.ini" в папку с игрой, и запустить игру. Возможно, для некоторых старых игр, придется переименовать "xinput1_3.dll" в одно из названий: "xinput1_4.dll" (Windows 8 / metro apps only), "xinput1_2.dll", "xinput1_1.dll" или "xinput9_1_0.dll".
+После настройки необходимо скопировать файлы "xinput1_3.dll" и "WheelSetup.ini" в папку с игрой, и запустить игру. Возможно, для некоторых игр придется переименовать "xinput1_3.dll" в одно из названий: "xinput1_4.dll" (Windows 8 / metro apps only), "xinput1_2.dll", "xinput1_1.dll" или "xinput9_1_0.dll".
 ## Загрузка
 >Версия для Windows XP, 7, 8.1, 10.<br>
 **[Загрузить](https://github.com/r57zone/Xbox-contoller-with-gyroscope)**<br>
 ## Обратная связь
 `r57zone[собака]gmail.com`
 
-# Gyroscope for Xbox controller (XInput) (En)
+# (En) Gyroscope for Xbox controller (XInput) 
 Gyroscope for the Xbox gamepad that allows you to use it as a steering wheel, and also help you more accurately aim. You can use any tracker supported by OpenTrack (for example, Arduino + GY-85).<br>
 There are 3 modes of use:<br>
 1. FPS - offset of the stick by gyro slopes (LB + RB + BACK)
@@ -40,7 +40,7 @@ It is possible that you will have to exchange Yaw, Pitch or Roll in the OpenTrac
 <br><br>
 In the "WheelSetup.ini" you can change the angle of rotation of the rudder.
 <br><br>
-After the configuration, you need to copy the files "xinput1_3.dll" and "WheelSetup.ini" to the folder with the game, and run the game. Perhaps for some older games, you will have to rename "xinput1_3.dll" to one of the names: "xinput1_4.dll" (Windows 8 / metro apps only), "xinput1_2.dll", "xinput1_1.dll" or "xinput9_1_0.dll" .
+After the configuration, you need to copy the files "xinput1_3.dll" and "WheelSetup.ini" to the folder with the game, and run the game. Perhaps for some games you will have to rename "xinput1_3.dll" to one of the names: "xinput1_4.dll" (Windows 8 / metro apps only), "xinput1_2.dll", "xinput1_1.dll" or "xinput9_1_0.dll" .
 <br><br>
 After starting the game, press "F9" and run the FreePie application for Android, enter the IP address of the computer and press the button. The "F10" button turns off the steering wheel.
 ## Download
