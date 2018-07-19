@@ -1,4 +1,6 @@
-# (Ru) Гироскоп для Xbox геймпада (XInput) 
+[![RU](https://user-images.githubusercontent.com/9499881/27683795-5b0fbac6-5cd8-11e7-929c-057833e01fb1.png)](https://github.com/r57zone/X360Advance/blob/master/README.md) 
+[![EN](https://user-images.githubusercontent.com/9499881/33184537-7be87e86-d096-11e7-89bb-f3286f752bc6.png)](https://github.com/r57zone/X360Advance/blob/master/README.EN.md) 
+# X360Advance (XInput) 
 Гироскоп для Xbox геймпада, который позволяет использовать его как руль, а также помогать более точно прицеливаться. Использовать можно любой трекер, поддерживаемый OpenTrack (например, Arduino + GY-85).<br>
 ![](https://user-images.githubusercontent.com/9499881/27588504-749af800-5b59-11e7-92e4-2b3813428281.png)<br>
 Есть 3 режима использования:<br>
@@ -8,43 +10,17 @@
 ## Настройка
 Загрузите и установите последнюю версию [OpenTrack](https://github.com/opentrack/opentrack/releases) и запустите её. 
 <br><br>
-В настройках OpenTrack необходимо выбрать как источник данных ваш трекер (настройте его, если необхимо), а выходной интерфейс: "UDP over network". Далее нажать кнопку "Запустить".
+В настройках OpenTrack необходимо выбрать как источник данных ваш трекер (настройте его, если необходимо), например, "FreePie UDP receiver", а выходной интерфейс: "freetrack 2.0 Enhanced". Далее нажать кнопку "Запустить".
 <br><br>
-Запустите приложение "XInputTest.exe" для проверки, из загруженного архива. Попробуйте наклонить трекер в разные стороны, переключайте режимы. В OpenTrack можно настроить слепые зоны и чувствительность (кривые и фильтр).
+Запустите приложение "XInputTest.exe" для проверки XInput библиотеки. Попробуйте наклонить трекер в разные стороны, переключайте режимы. В OpenTrack можно настроить слепые зоны и чувствительность (кривые и фильтр).
 <br><br>
 Возможно, что вам придется обменять местами Yaw, Pitch или Roll, в настройках профиля OpenTrack. 
 <br><br>
-В "WheelSetup.ini" можно изменить угол вращения руля. 
+В "X360Advance.ini" можно изменить чувствительность руля и вращения камеры для режима FPS.
 <br><br>
-После настройки необходимо скопировать файлы "xinput1_3.dll" и "WheelSetup.ini" в папку с игрой, и запустить игру. Возможно, для некоторых игр придется переименовать "xinput1_3.dll" в одно из названий: "xinput1_4.dll" (Windows 8 / metro apps only), "xinput1_2.dll", "xinput1_1.dll" или "xinput9_1_0.dll".
+После настройки необходимо скопировать файлы "xinput1_3.dll" (для 32 битных игр, а для 64 битных скопировать "xinput1_3x64.dll" и переименовать в "xinput1_3.dll") и "X360Advance" в папку с игрой, и запустить игру. Возможно, для некоторых игр придется переименовать "xinput1_3.dll" в одно из названий: "xinput1_4.dll" (Windows 8 / metro apps only), "xinput1_2.dll", "xinput1_1.dll" или "xinput9_1_0.dll".
 ## Загрузка
 >Версия для Windows XP, 7, 8.1, 10.<br>
-**[Загрузить](https://github.com/r57zone/Xbox-contoller-with-gyroscope)**<br>
+**[Загрузить](https://github.com/r57zone/X360Advance/releases)**<br>
 ## Обратная связь
 `r57zone[собака]gmail.com`
-
-# (En) Gyroscope for Xbox controller (XInput) 
-Gyroscope for the Xbox gamepad that allows you to use it as a steering wheel, and also help you more accurately aim. You can use any tracker supported by OpenTrack (for example, Arduino + GY-85).<br>
-There are 3 modes of use:<br>
-1. FPS - offset of the stick by gyro slopes (LB + RB + BACK)
-2. Steering wheel - complete emulation of the left stick by the gyro (LB + RB + START)
-3. By default - no gyro use (LB + RB + BACK + START)
-## Setup
-Download and install the latest version of [OpenTrack](https://github.com/opentrack/opentrack/releases) and run it.
-<br><br>
-In OpenTrack settings, you must select you tracker (and setup if need), and the output interface: "UDP over network". Then click the "Run" button.
-<br><br>
-Run the application "XInputTest.exe" to check, from the downloaded archive. Try tilting the tracker in different directions, switch modes. In OpenTrack, you can configure blind zones and sensitivity (curves and filter).
-<br><br>
-It is possible that you will have to exchange Yaw, Pitch or Roll in the OpenTrack profile settings.
-<br><br>
-In the "WheelSetup.ini" you can change the angle of rotation of the rudder.
-<br><br>
-After the configuration, you need to copy the files "xinput1_3.dll" and "WheelSetup.ini" to the folder with the game, and run the game. Perhaps for some games you will have to rename "xinput1_3.dll" to one of the names: "xinput1_4.dll" (Windows 8 / metro apps only), "xinput1_2.dll", "xinput1_1.dll" or "xinput9_1_0.dll" .
-<br><br>
-After starting the game, press "F9" and run the FreePie application for Android, enter the IP address of the computer and press the button. The "F10" button turns off the steering wheel.
-## Download
->Version for Windows XP, 7, 8.1, 10.<br>
-**[Download](https://github.com/r57zone/Xbox-contoller-with-gyroscope)**<br>
-## Feedback
-`r57zone[at]gmail.com`
